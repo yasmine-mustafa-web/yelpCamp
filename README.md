@@ -8,7 +8,7 @@ A website that represents camps where you can add your own experience or just sh
 
 **All campgrounds Page**:containes all the campgrounds and the title , description , photo and loctaion of each campground submitted by the user.
 
-**Each campground page**:represents the map of the location , price , image(optional) and reviews sections including stars.
+**Each campground page**:represents the map (using mapBox) of the location , price , image(optional) and reviews sections including stars.
 
 **New campground page**:Allow you to make a new campground (using Cloudinary for storing images) ;
 
