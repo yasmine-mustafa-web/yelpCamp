@@ -19,11 +19,17 @@ A website that represents camps where you can add your own experience or just sh
 # TechStack:
 
 **HTML**
+
 **BootStrap**
+
 **EJS**
+
 **JavaScript**
+
 **CSS**
+
 **EXPRESS**
+
 **MongoDB (for database)**
 
 It is resposive for all screens.
