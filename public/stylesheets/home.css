@@ -1,23 +1,88 @@
 body{
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    background-image:url('https://media.istockphoto.com/id/1377841262/photo/the-beautiful-scenery-of-a-tent-in-a-pine-tree-forest-at-pang-oung-mae-hong-son-province.jpg?s=612x612&w=0&k=20&c=1JvDx-16zTIeytdcC-Fa27nVJ_8SveP-omNKKlUJ-lQ=');
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT85wExuBpngvU0bSPwU4mQsYc8CKq4K3WP5BIR1PeigqNzfCfYDAduO0WN&s=10');
     background-size: cover;
     background-position: center;
+    max-width: 100%;
 }
 .cover-container{
     max-width: 60vw;
 }
-
+.navbar{
+    display: flex;
+    margin-right: 40px;
+}
 .nav-link{
+    font-family: 'Quicksand', sans-serif;
     padding: 0.25rem 0;
     font-weight: 700;
-    color: rgba(255,255,255,0.5);
+    color: rgb(255, 255, 255);
     margin-left: 1rem;
     border-bottom: 0.25rem transparent solid;
+
 }
 
 .nav-link:hover{
     color: rgba(255,255,255,0.5);
     border-bottom-color:rgba(255,255,255,0.5);
+}
+
+.nav-link:active{
+    color: white;
+    border-bottom-color:white;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    text-shadow: none;
+    font-family: 'Poppins' , sans-serif;
+    font-size: medium;
+    font-weight: 600;
+        background: transparent;
+        border-radius: 20px ;
+        transition: all 0.3s ease;
+        margin-top: 20px;
+}
+.btn-secondary:hover{
+        color: #ffffff;
+    text-shadow: none;
+transform: scale(1.03);
+background: transparent;
+
+}
+main p{
+    margin: 0 auto;
+    font-family: 'Quicksand' , sans-serif;
+    font-weight: 400;
+      flex-wrap: nowrap;
+        white-space: nowrap;
+        text-align: center;
+}
+@media (max-width:768px) {
+    .cover-container{
+    max-width: 100vw;
+}
+.par{
+    flex-wrap: wrap !important;
+    white-space: wrap !important;
+}
+    .main p{
+             font-size: 5px;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      
+    }
+    .nav-masthead{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+    }
 }
